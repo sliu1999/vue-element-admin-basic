@@ -1,0 +1,365 @@
+body,
+html,
+#app {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#app {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/***************** 常用样式  ******************/
+
+li {
+	list-style: none;
+}
+.bg-white{
+	background-color: #FFFFFF;
+}
+.dis-table {
+	display: table;
+}
+
+.dis-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.text-c{
+  text-align: center;
+}
+.text-l{
+  text-align: left;
+}
+.text-r{
+  text-align: right;
+}
+
+.vt-bottom {
+	vertical-align: bottom;
+}
+
+.vt-top {
+	vertical-align: top;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.position-relative {
+	position: relative;
+}
+/* 加粗 */
+.font-w{
+	font-weight: bold;
+}
+
+/*文字加下划线*/
+
+.text-decor {
+	text-decoration: underline;
+}
+
+
+/*基本按钮样式*/
+
+.btn-item {
+	padding: 10px;
+}
+
+
+/*不换行*/
+
+.white-s {
+	white-space: nowrap;
+}
+
+
+/*一行省略样式*/
+
+.aby-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	line-height: 1.3em;
+	height: 1.3em;
+}
+.aby-ellipsi {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+  word-break: break-all;
+  font-size: 18px !important;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 30px;
+}
+
+/*两行省略样式*/
+
+.aby-ellipsis-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	line-height: 1.3em;
+	height: 2.6em;
+}
+
+
+/*三行省略样式*/
+
+.aby-ellipsis-3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	line-height: 1.3em;
+	/*height: 4.2em;*/
+}
+/* 一行均分 */
+.one-between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* 一行均分 */
+.one-betweenes{
+	display: flex;
+	justify-content: space-between;
+}
+/*角标*/
+
+.aby-label-red {
+	position: absolute;
+	background: #E51C23;
+	color: #fff;
+	padding: 2px 8px;
+	top: 1px;
+	left: 1px;
+	font-size: 12px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 4px;
+}
+
+.aby-label-right {
+	margin-left: 193px;
+	width: 36px;
+	background: #08C7B5;
+}
+
+.aby-label-black {
+	position: absolute;
+	background: rgba(0, 0, 0, .6);
+	color: #fff;
+	padding: 1px 4px;
+	top: 1px;
+	left: 1px;
+	font-size: 12px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 4px;
+}
+
+
+/******线条样式******/
+
+.aby-border-gray {
+	border-bottom: 1px solid #F0F0F0;
+}
+
+
+/*对齐方式*/
+
+
+/*右飘*/
+
+.aby-float-r {
+	float: right;
+}
+
+
+/*间距25px*/
+
+.aby-space-large {
+	margin-top: 35px;
+}
+
+
+/*分页*/
+
+.page.el-pagination.is-background .btn-next,
+.page.el-pagination.is-background .btn-prev,
+.page.el-pagination.is-background .el-pager li {
+	margin: 0 5px;
+	background-color: #FFFFFF;
+	color: #606266;
+	min-width: 30px;
+	border-radius: 2px;
+}
+
+.page.el-pagination.is-background .el-pager li:not(.disabled).active {
+	background-color: #08C7B5;
+	color: #fff;
+}
+
+.page.el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+	color: #fff;
+}
+
+.page.el-pagination.is-background .el-pager li:not(.disabled):hover {
+	color: #08C7B5;
+}
+
+.page .el-input__inner {
+	border-radius: 2px;
+	border: 1px solid #EEEEEE;
+}
+
+
+
+.aby-indexhtml .el-form-item__label{
+	width: 85px !important;
+	text-align: right !important;
+}
+.container-box  .el-input__inner,.el-input__icon{
+	height: 28px !important;
+	line-height: 28px !important;
+}
+body{
+    overflow: hidden !important;
+}
+.el-menu-vertical-demo{
+    background-color: #001529 !important;
+    width: 180px;
+}
+.el-menu-item, .el-submenu__title{
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px solid #000c17;
+    background-color: #001529 !important;
+}
+.el-submenu .el-menu-item{
+    height: 42px;
+    line-height: 42px;
+    background-color: #000c17 !important;
+    text-align: left;
+}
+.el-menu-item.is-active {
+    color: #ffffff !important;
+    background-color: #409EFF !important;
+}
+.menu-expanded a {
+    text-decoration: none !important;
+}
+.menu-expanded .router-link-exact-active{
+    text-decoration: none !important;
+}
+.el-breadcrumb__inner{
+    color: #fff !important;
+}
+.el-submenu .el-menu-item{
+    min-width: 180px !important;
+}
+.container-box .el-checkbox{
+	display: initial !important;
+}
+.container-box .carprice .el-form-item__content{
+      display: flex !important;
+}
+
+.countbox .el-table, .el-table__expanded-cell{
+  background-color:transparent !important;
+}
+
+.countbox .el-table--striped .el-table__body tr.el-table__row--striped td{
+  background-color: rgba(77, 140, 155, 0.2) !important;
+}
+.countbox .el-table td, .el-table th.is-leaf{
+  border-bottom: none !important;
+}
+.countbox .el-table--enable-row-transition .el-table__body td{
+  color: #fff !important;
+}
+.countbox .el-table .cell{
+  line-height: 27px !important;
+}
+.countbox .el-table__body-wrapper{
+  height: 410px !important;
+  overflow-y: auto !important;
+}
+  .countbox .el-table__body-wrapper::-webkit-scrollbar {
+  display: none;
+  }
+.countbox .el-table::before{
+  height: 0 !important;
+}
+.countbox .el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #4D8C9B !important;
+
+}
+  .countbox .tablebox .el-table th, .countbox .el-table tr{
+      background-color:transparent !important;
+      color: #4D8C9B !important;
+  }
+.charge .el-date-editor .el-range-separator{
+  line-height: 22px !important;
+}
+/* 列表隔行换色 */
+.el-table .el-table__row:nth-of-type(odd){
+  background-color: #f8f8f8;
+}
+/* 自定义loding样式 */
+.el-loading-spinner .circular{
+  width: 35px;
+  height: 35px;
+  animation: loading-rotate 2s linear infinite;
+  display: none;
+}
+.el-loading-spinner{
+  /* 图片替换为你自定义的即可 */
+  background: url('../img/loding.gif') no-repeat;
+  background-size: 48px 48px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.el-loading-spinner .el-loading-text{
+  text-align: left;
+  margin-top: 50px !important;
+  color: #eeeeee!important;
+  /* 文字投影 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影颜色 */
+  text-shadow: #02060a 0 2px 0;
+}
+
+.el-submenu .el-menu-item{
+  background-color: #02060a;
+  font-size: 12px;
+  color: #eeeeee;
+}
